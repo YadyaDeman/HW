@@ -38,7 +38,6 @@ public class Calculator {
     public static double minus (int num1,int num2,int num3) {
         return num1 - num2 - num3;
     }
-
     public static double plus (int num1,int num2,int num3) {
         return num1+num2+num3;}
 
