@@ -2,7 +2,7 @@ package HomeWork;
 
 public class Calculator {
     public static void main(String[] args) {
-        Calculator calculator = new Calculator(1,"+", 3);
+        Calculator calculator = new Calculator(1, 3);
         System.out.println(calculator);
     }
     /*Задача 1
@@ -16,28 +16,31 @@ public class Calculator {
     int num2;
     int num3;
 
-    String plus;
-    String minus;
 
-    public Calculator(int num1, String plus, int num2) {
+    public Calculator(int num1, int num2) {
         this.num1 = num1;
-        this.plus = plus;
         this.num2 = num2;
     }
 
-    public Calculator(int num1, String plus, int num2, int num3) {
-        this(num1, plus, num2);
+    public Calculator(int num1, int num2, int num3) {
+        this(num1, num2);
         this.num3 = num3;
     }
 
-    public String toString() {
-        if ( plus ){
-            return num1 + " + " + num2 + " + " + num3 + " = " + (num1 + num2 + num3);
-        }
-        if (minus){
-            return num1 + " - " + num2 + " - " + num3 + " = " + (num1 - num2 - num3);
-        }
-
-        return null;
+    public static double minus(int num1, int num2) {
+        return num1 - num2;
     }
+
+    public static double plus(int num1, int num2) {
+        return num1 + num2;
+
+    }
+    public static double minus (int num1,int num2,int num3) {
+        return num1 - num2 - num3;
+    }
+
+    public static double plus (int num1,int num2,int num3) {
+        return num1+num2+num3;}
+
 }
+
