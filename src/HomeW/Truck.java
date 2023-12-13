@@ -21,5 +21,4 @@ public class Truck extends Car {
         return "The selected truck has the following characteristics: model '" + model +", manufacturer '" + manufacturer +", year " + year +
                 ", color '" +color +"maxWeight "+maxWeight+"t., maxFuel "+maxFuel+"lt., owner '"+ owner;
     }
-
 }
