@@ -21,5 +21,4 @@ public class PassengerCar extends Car{
             ", color '" +color+", passenger seats "+passengerSeats+ ", max Speed " +maxSpeed+ "km."+ "Its sport Car - " +sportCar; }
 
 
-
 }

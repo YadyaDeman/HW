@@ -25,6 +25,5 @@ public class main {
         for (Car salon : main) {
             salon.transfer();
         }
-
     }
 }

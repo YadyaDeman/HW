@@ -15,7 +15,6 @@ public class Truck extends Car {
     public void transfer(){
         System.out.println("Mainly for the transportation of goods - animals, other vehicles, products.");
     }
-
     @Override
     public String toString() {
         return "The selected truck has the following characteristics: model '" + model +", manufacturer '" + manufacturer +", year " + year +
