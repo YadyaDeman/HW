@@ -15,6 +15,7 @@ public class PassengerCar extends Car{
     }
     public void transfer(){
         System.out.println("Mainly for transporting people, maybe a little cargo.");
+
     }
     public String toString(){
         return "The selected car has the following characteristics: model '" + model +", manufacturer '" + manufacturer +", year " + year +

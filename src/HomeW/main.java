@@ -8,7 +8,6 @@ public class main {
 Определить, какие переменные и методы в этом случае должны быть в родительском классе, а какие в дочерних.*/
 
 
-
         Car timberTruck = new Truck("Timber truck", "Mersedes-Benz", 2020, "Yelow", 3500, 500, "right");
         Car carTransporter = new Truck("Car transporter", "Volvo", 2022, "White", 5000, 500, "right");
         Car livestockTruck = new Truck("Livestock truck", "Renault", 2021, "Black", 4000, 500, "right");
